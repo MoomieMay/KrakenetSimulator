@@ -1,0 +1,15 @@
+D:\Users\MoomieMay\Desktop\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.csproj.AssemblyReference.cache
+D:\Users\MoomieMay\Desktop\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\MoomieMay\Desktop\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.AssemblyInfoInputs.cache
+D:\Users\MoomieMay\Desktop\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.AssemblyInfo.cs
+D:\Users\MoomieMay\Desktop\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.csproj.CoreCompileInputs.cache
+D:\Users\MoomieMay\Desktop\KrakenetSimulator\bin\Debug\net7.0\KrakenetSimulator.exe
+D:\Users\MoomieMay\Desktop\KrakenetSimulator\bin\Debug\net7.0\KrakenetSimulator.deps.json
+D:\Users\MoomieMay\Desktop\KrakenetSimulator\bin\Debug\net7.0\KrakenetSimulator.runtimeconfig.json
+D:\Users\MoomieMay\Desktop\KrakenetSimulator\bin\Debug\net7.0\KrakenetSimulator.dll
+D:\Users\MoomieMay\Desktop\KrakenetSimulator\bin\Debug\net7.0\KrakenetSimulator.pdb
+D:\Users\MoomieMay\Desktop\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.dll
+D:\Users\MoomieMay\Desktop\KrakenetSimulator\obj\Debug\net7.0\refint\KrakenetSimulator.dll
+D:\Users\MoomieMay\Desktop\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.pdb
+D:\Users\MoomieMay\Desktop\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.genruntimeconfig.cache
+D:\Users\MoomieMay\Desktop\KrakenetSimulator\obj\Debug\net7.0\ref\KrakenetSimulator.dll
