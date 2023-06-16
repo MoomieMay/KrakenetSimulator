@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mjl8+LeXWjhqkUXVhq73BBAopBb75lgEauivYfiS00A3rWiqz43imwyslOQHeE/xG4H6bkv3AzlTRlOCY6lclQ==",
+  "dgSpecHash": "9wDqHybvG7eU2n4peAVZIe96g5DhrDMvmmrzrmeERtEwL2q0LqUjrp9cNR58OCwzil0rF+0N8LqlIciqvBGK1Q==",
   "success": true,
-  "projectFilePath": "D:\\Users\\MoomieMay\\Desktop\\KrakenetSimulator\\KrakenetSimulator.csproj",
+  "projectFilePath": "D:\\xampp\\htdocs\\KrakenetSimulator\\KrakenetSimulator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

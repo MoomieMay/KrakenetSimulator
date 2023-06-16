@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\MoomieMay\\Desktop\\KrakenetSimulator\\KrakenetSimulator.csproj": {}
+    "D:\\xampp\\htdocs\\KrakenetSimulator\\KrakenetSimulator.csproj": {}
   },
   "projects": {
-    "D:\\Users\\MoomieMay\\Desktop\\KrakenetSimulator\\KrakenetSimulator.csproj": {
+    "D:\\xampp\\htdocs\\KrakenetSimulator\\KrakenetSimulator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\MoomieMay\\Desktop\\KrakenetSimulator\\KrakenetSimulator.csproj",
+        "projectUniqueName": "D:\\xampp\\htdocs\\KrakenetSimulator\\KrakenetSimulator.csproj",
         "projectName": "KrakenetSimulator",
-        "projectPath": "D:\\Users\\MoomieMay\\Desktop\\KrakenetSimulator\\KrakenetSimulator.csproj",
+        "projectPath": "D:\\xampp\\htdocs\\KrakenetSimulator\\KrakenetSimulator.csproj",
         "packagesPath": "C:\\Users\\MoomieMay\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\MoomieMay\\Desktop\\KrakenetSimulator\\obj\\",
+        "outputPath": "D:\\xampp\\htdocs\\KrakenetSimulator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MoomieMay\\AppData\\Roaming\\NuGet\\NuGet.Config"

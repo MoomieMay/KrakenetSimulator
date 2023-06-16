@@ -10,7 +10,7 @@ namespace KrakenetSimulator
     {
         int [,] matrizAdyacencia;
         int [] indegree;
-        int maquinas;
+        int maquinas; //es la cantidad de nodos que hay
         
         public Red(int pmaquinas)
         {
@@ -21,10 +21,13 @@ namespace KrakenetSimulator
             //Instanciamos arreglo indegree
             indegree = new int[maquinas];
 
+            //Creamos el administrador
+
         }
         
-        public void AdicionaArista(int pNodoInicio, int pNodoFinal, int anchoBanda)
+        public void Conexion(int pNodoInicio, int pNodoFinal, int anchoBanda)
         {
+            //Se agrega la conexión colocando el ancho de banda
             matrizAdyacencia[pNodoInicio, pNodoFinal] = anchoBanda;
         }
 
@@ -105,6 +108,81 @@ namespace KrakenetSimulator
                     indegree[n]--;
             }
         }
+
+
+        //Calculo del camino más corto
+        //REVISAR
+        // Función para encontrar el vértice con la distancia mínima no visitada
+    private int MinDistance(int[] dist, bool[] visited)
+    {
+        int min = int.MaxValue;
+        int minIndex = -1;
+
+        for (int v = 0; v < maquinas; v++)
+        {
+            if (!visited[v] && dist[v] <= min)
+            {
+                min = dist[v];
+                minIndex = v;
+            }
+        }
+
+        return minIndex;
+    }
+
+    // Función para imprimir el camino más corto desde el origen hasta el vértice dado
+    private void PrintPath(int[] parent, int j)
+    {
+        if (parent[j] == -1)
+        {
+            Console.Write(j);
+            return;
+        }
+
+        PrintPath(parent, parent[j]);
+        Console.Write(" -> " + j);
+    }
+
+    // Función para calcular el camino más corto desde el origen hasta todos los vértices utilizando el algoritmo de Dijkstra
+    public void DijkstraShortestPath(int source)
+    {
+        int[] dist = new int[maquinas]; // Almacena la distancia más corta desde el origen hasta cada vértice
+        bool[] visited = new bool[maquinas]; // Almacena si un vértice ha sido visitado o no
+        int[] parent = new int[maquinas]; // Almacena el camino más corto desde el origen hasta cada vértice
+
+        for (int i = 0; i < maquinas; i++)
+        {
+            dist[i] = int.MaxValue;
+            visited[i] = false;
+            parent[i] = -1;
+        }
+
+        dist[source] = 0;
+
+        for (int count = 0; count < maquinas - 1; count++)
+        {
+            int u = MinDistance(dist, visited);
+            visited[u] = true;
+
+            for (int v = 0; v < maquinas; v++)
+            {
+                if (!visited[v] && matrizAdyacencia[u, v] != 0 && dist[u] != int.MaxValue && dist[u] + matrizAdyacencia[u, v] < dist[v])
+                {
+                    dist[v] = dist[u] + matrizAdyacencia[u, v];
+                    parent[v] = u;
+                }
+            }
+            
+        }
+
+        // Imprimir los caminos más cortos desde el origen hasta todos los vértices
+        for (int i = 0; i < maquinas; i++)
+        {
+            Console.Write("Camino más corto desde el origen hasta el vértice " + i + ": ");
+            PrintPath(parent, i);
+            Console.WriteLine(", Distancia = " + dist[i]);
+        }
+    }
 
     }
 }
