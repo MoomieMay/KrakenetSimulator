@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\MoomieMay\\Desktop\\KrakenetSimulator\\KrakenetSimulator.csproj",
+      "projectUniqueName": "d:\\xampp\\htdocs\\KrakenetSimulator\\KrakenetSimulator.csproj",
       "projectName": "KrakenetSimulator",
-      "projectPath": "D:\\Users\\MoomieMay\\Desktop\\KrakenetSimulator\\KrakenetSimulator.csproj",
+      "projectPath": "d:\\xampp\\htdocs\\KrakenetSimulator\\KrakenetSimulator.csproj",
       "packagesPath": "C:\\Users\\MoomieMay\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\MoomieMay\\Desktop\\KrakenetSimulator\\obj\\",
+      "outputPath": "d:\\xampp\\htdocs\\KrakenetSimulator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MoomieMay\\AppData\\Roaming\\NuGet\\NuGet.Config"

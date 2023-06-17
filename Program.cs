@@ -12,18 +12,18 @@ namespace KrakenetSimulator
             int nodo = 0;
             Red miRed = new Red(7);
             
-            miRed.AdicionaArista(0,1,20);
-            miRed.AdicionaArista(0,2,5);
-            miRed.AdicionaArista(0,3,10);
-            miRed.AdicionaArista(1,3,10);
-            miRed.AdicionaArista(1,4,5);
-            miRed.AdicionaArista(2,5,50);
-            miRed.AdicionaArista(3,2,10);
-            miRed.AdicionaArista(3,5,20);
-            miRed.AdicionaArista(3,6,5);
-            miRed.AdicionaArista(4,3,20);
-            miRed.AdicionaArista(4,6,50);
-            miRed.AdicionaArista(6,5,10);
+            miRed.Conexion(0,1,20);
+            miRed.Conexion(0,2,5);
+            miRed.Conexion(0,3,10);
+            miRed.Conexion(1,3,10);
+            miRed.Conexion(1,4,5);
+            miRed.Conexion(2,5,50);
+            miRed.Conexion(3,2,10);
+            miRed.Conexion(3,5,20);
+            miRed.Conexion(3,6,5);
+            miRed.Conexion(4,3,20);
+            miRed.Conexion(4,6,50);
+            miRed.Conexion(6,5,10);
 
             miRed.MuestraAdyacencia();
             miRed.CalcularIndegree();
