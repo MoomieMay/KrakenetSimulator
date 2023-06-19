@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\MoomieMay\\.nuget\\packages\\": {}
+    "C:\\Users\\Haruzame\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\xampp\\htdocs\\KrakenetSimulator\\KrakenetSimulator.csproj",
+      "projectUniqueName": "c:\\Uni\\Krakenet Simulator\\KrakenetSimulator\\KrakenetSimulator.csproj",
       "projectName": "KrakenetSimulator",
-      "projectPath": "d:\\xampp\\htdocs\\KrakenetSimulator\\KrakenetSimulator.csproj",
-      "packagesPath": "C:\\Users\\MoomieMay\\.nuget\\packages\\",
-      "outputPath": "d:\\xampp\\htdocs\\KrakenetSimulator\\obj\\",
+      "projectPath": "c:\\Uni\\Krakenet Simulator\\KrakenetSimulator\\KrakenetSimulator.csproj",
+      "packagesPath": "C:\\Users\\Haruzame\\.nuget\\packages\\",
+      "outputPath": "c:\\Uni\\Krakenet Simulator\\KrakenetSimulator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MoomieMay\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Haruzame\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -56,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Haruzame\\AppData\\Roaming\\.dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

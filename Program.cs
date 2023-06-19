@@ -44,6 +44,14 @@ namespace KrakenetSimulator
                 }
             }while(nodo != -1);
 
+            //Testeo de Maquinas (probando la herencia)
+            Administrador administrador = new Administrador(1,1);
+            Router router = new Router(34, 28, administrador);
+            Terminal termi = new Terminal(12, 125, router);
+            Console.WriteLine();
+            Console.WriteLine($"id {termi.Id}, ip {termi.Ip}");
+            Console.WriteLine($"id {router.Id}, ip {router.Ip}");
+            Console.WriteLine($"id {administrador.Id}, ip {administrador.Ip}");
             Console.WriteLine();
 
         }

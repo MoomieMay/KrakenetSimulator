@@ -28,3 +28,18 @@ D:\xampp\htdocs\KrakenetSimulator\obj\Debug\net7.0\refint\KrakenetSimulator.dll
 D:\xampp\htdocs\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.pdb
 d:\xampp\htdocs\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.genruntimeconfig.cache
 d:\xampp\htdocs\KrakenetSimulator\obj\Debug\net7.0\ref\KrakenetSimulator.dll
+C:\Uni\Krakenet Simulator\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.csproj.AssemblyReference.cache
+C:\Uni\Krakenet Simulator\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Uni\Krakenet Simulator\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.AssemblyInfoInputs.cache
+C:\Uni\Krakenet Simulator\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.AssemblyInfo.cs
+C:\Uni\Krakenet Simulator\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.csproj.CoreCompileInputs.cache
+C:\Uni\Krakenet Simulator\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.dll
+C:\Uni\Krakenet Simulator\KrakenetSimulator\obj\Debug\net7.0\refint\KrakenetSimulator.dll
+C:\Uni\Krakenet Simulator\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.pdb
+C:\Uni\Krakenet Simulator\KrakenetSimulator\bin\Debug\net7.0\KrakenetSimulator.exe
+C:\Uni\Krakenet Simulator\KrakenetSimulator\bin\Debug\net7.0\KrakenetSimulator.deps.json
+C:\Uni\Krakenet Simulator\KrakenetSimulator\bin\Debug\net7.0\KrakenetSimulator.runtimeconfig.json
+C:\Uni\Krakenet Simulator\KrakenetSimulator\bin\Debug\net7.0\KrakenetSimulator.dll
+C:\Uni\Krakenet Simulator\KrakenetSimulator\bin\Debug\net7.0\KrakenetSimulator.pdb
+C:\Uni\Krakenet Simulator\KrakenetSimulator\obj\Debug\net7.0\KrakenetSimulator.genruntimeconfig.cache
+C:\Uni\Krakenet Simulator\KrakenetSimulator\obj\Debug\net7.0\ref\KrakenetSimulator.dll
