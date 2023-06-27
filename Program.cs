@@ -52,8 +52,8 @@ namespace KrakenetSimulator
             Console.WriteLine($"id {termi.Id}, ip {termi.Ip}");
             Console.WriteLine($"id {router.Id}, ip {router.Ip}");
             Console.WriteLine($"id {administrador.Id}, ip {administrador.Ip}");
+            //termi.Recibir(35);
             Console.WriteLine();
-
         }
     }
 }

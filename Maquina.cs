@@ -18,6 +18,6 @@ namespace KrakenetSimulator
 
         public abstract void Enviar ();
 
-        public abstract void Recibir ();
+        public abstract void Recibir (Paquete paq);
     }
 }

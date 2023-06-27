@@ -9,21 +9,32 @@ namespace KrakenetSimulator
     class Terminal : Maquina
     {
         Router _router;
-        //Paquete [] _paquete;
+        List<Paquete> _paquete;
+
+
         public Terminal(int Idm, int Ipm, Router router) : base(Idm, Ipm)
         {
             _router = router;
-            //Paquete _paquete = new Paquete[Paquete];
+            _paquete = new List<Paquete>();
         }
 
         public override void Enviar()
         {
-            throw new NotImplementedException();
+            _router.Recibir(_paquete[0]);
+            _paquete.RemoveAt(0);
         }
 
-        public override void Recibir()
+        public override void Recibir(Paquete paq)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("el paquete {0} fue recibido", paq);
+        }
+
+        // Crea el paquete que sera enviado por la red (agregar los parametros del paquete)
+        public void CrearPaquete ()
+        {
+            Paquete paq = new Paquete();
+            _paquete.Add(paq);
+
         }
     }
 }

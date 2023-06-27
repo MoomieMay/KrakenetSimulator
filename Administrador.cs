@@ -9,10 +9,10 @@ namespace KrakenetSimulator
     class Administrador : Maquina
     {
 
-        Router[] _routers;
+        List<Router> _routers;
         public Administrador(int Idm, int Ipm) : base(Idm, Ipm)
         {
-            _routers = new Router[0];
+            _routers = new List<Router>();
         }
 
         public override void Enviar()
@@ -20,7 +20,7 @@ namespace KrakenetSimulator
             throw new NotImplementedException();
         }
 
-        public override void Recibir()
+        public override void Recibir(Paquete paq)
         {
             throw new NotImplementedException();
         }
